@@ -5,8 +5,8 @@ void main() {
   print("Subtraction: 20 - 10 = ${numB - numA}");
   print("Multiplication: 10 x 20 = ${numA * numB}");
   print("Division: 20 / 10 = ${numB / numA}");
-  print("Modulo Division: 20 % 10 = ${numB % numA}");
-  print("Int Type Quotient: 20 ~/ 10 = ${numB ~/ numA}");
+  print("Modulo Division: 5 % 3 = ${5 % 3}");
+  print("Int Type Quotient: 5 ~/ 3 = ${5 ~/ 3}");
   print("Unary Minus: ${-(numA-numB)}");
 
   print("Equality & Relational Operators in Dart");
@@ -19,7 +19,7 @@ void main() {
   print(numA != numB); // true
 
   // Type Test Operators: is and is!
-  print("Is 10 a String? ${numA is String}");
+  print("Is 10 a Int? ${numA is int}");
   print("Is 10 not a String? ${numA is! String}");
 
   // Bit-Wise Operators

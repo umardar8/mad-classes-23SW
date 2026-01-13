@@ -30,7 +30,7 @@ The Set class provides various methods for manipulation and common set operation
 add()           Adds a single element. If the element is already present, it is ignored.
 addAll()        Adds multiple elements from an Iterable (like a list).
 remove()        Removes a specific element by its value.
-contains()      Checks if a set contains a specific element and returns a boolean.
+set_b           Checks if a set contains a specific element and returns a boolean.
 union()         Combines two sets into a new set with all unique elements from both.
 intersection()  Returns a new set containing only the elements common to both sets.
 difference()    Returns a new set with elements present in the first set but not the second.

@@ -47,7 +47,7 @@ void main(){
   print(map_a['username']);
   print(map_a['password']);
 
-  print(map_a);
+  print("Map A: ${map_a}");
 
   print("A set holds unordered but unique elements: $set_a");
   print("which can also be of mixed types: $set_b");
@@ -85,3 +85,7 @@ Map<String, int> marks = {
 // Sets
 Set set_a = {2,3,4,6};
 Set set_b = {"Umar", 23, "SW", true};
+
+var dynamicVar = {"Students", 23, true};
+final dynamicVar2 = ["banana", "apple", "mango"];
+const dynamicVar3 = ["banana", "apple", "mango"];
