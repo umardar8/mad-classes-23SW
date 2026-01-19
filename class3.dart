@@ -5,11 +5,11 @@ void main() {
 
   print('value of numC after assignment: ${numC}');
 
-  // var result = (condition1 & condition2);
+  // var result = (condition1 && condition2);
 
   // print('result is: ${result}');
 
-  // var result = (condition1 | condition2);
+  // var result = (condition1 || condition2);
 
   // print('result is: ${result}');
 
@@ -23,9 +23,8 @@ void main() {
 
   print('result of 23SW batch is: ${result}');
 
-
 }
 
-var condition1 = false;
+var condition1 = true;
 var condition2 = false;
 var numC = 80;
