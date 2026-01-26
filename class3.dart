@@ -17,11 +17,17 @@ void main() {
 
   // print('result is: ${result}');
 
-  var marks = 80;
+  // var marks = 80;
 
-  var result = (marks > 50) ? 'pass' : 'fail'; // ?: elvis operator
+  // var result = (marks > 50) ? 'pass' : 'fail'; // ?: elvis operator
 
-  print('result of 23SW batch is: ${result}');
+  // print('result of 23SW batch is: ${result}');
+
+  var marks1 = null;
+  var marks2 = 'fail';
+  var result = marks1 ?? marks2;
+
+  print(result);
 
 }
 
